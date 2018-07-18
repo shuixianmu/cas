@@ -9,8 +9,6 @@ import org.apereo.cas.util.CollectionUtils;
 
 import lombok.val;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
 import org.mockito.ArgumentCaptor;
 import org.springframework.binding.message.DefaultMessageResolver;
 import org.springframework.binding.message.MessageContext;
@@ -29,7 +27,11 @@ import static org.mockito.Mockito.*;
  * @author Marvin S. Addison
  * @since 4.0.0
  */
+<<<<<<< HEAD
 @RunWith(JUnit4.class)
+=======
+@Slf4j
+>>>>>>> clean up spring test stuff
 public class AuthenticationExceptionHandlerActionTests {
 
     @Test
